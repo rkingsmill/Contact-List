@@ -7,11 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "InputCollector.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+       
+        
+        while (true) {
+            
+            
+            //NSLog (@"What would you like do next? \n1. Create a new contact list \n2. List all contacts quit \n3. Exit Application");
+            
+         
+            
+            InputCollector *display = [[InputCollector alloc]init];
+            [display inputForPrompt:<#(NSString *)#>]
+        }
+        
+        
+        
     }
     return 0;
 }
